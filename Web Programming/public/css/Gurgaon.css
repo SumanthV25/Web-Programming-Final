@@ -1,0 +1,95 @@
+h1{
+    font-size: 80px;
+    color: white;
+    font-family:cursive;
+    margin-left: 700px;
+    margin-top: -150px;
+}
+h2{
+    font-size: 60px;
+    color:white;
+    font-family: cursive;
+    margin-left: 200px;
+}
+.box{
+
+    margin-bottom: 50px;
+    margin-left: 100px; 
+    box-sizing: border-box;
+    display:flex;
+    width: 1600px;
+    height: 700px;
+    border-radius: 30px;
+    background-color:rgba(10, 10, 10, 0.178) ;
+}
+
+
+ul h3{
+    font-weight: 600;
+    font-size: 48px;
+    color:white;
+    font-family: cursive;
+    
+}
+ul h4{
+    font-weight: 600;
+    font-size: 24px;
+    color:white;
+    font-family: cursive;
+}
+ul li{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 500;
+     line-height: 29px;
+     color:white;
+     font-family: cursive;
+}
+ul p{
+    font-size: 25px;
+    color:white;
+    font-family: cursive;
+}
+
+button{
+    font-size: 28px;
+    font-family: cursive;
+    font-weight: bold;
+    padding: 10px;
+    width: 160px;
+    margin-left: 50px;
+    margin-top:10px ;
+    cursor: pointer;
+    color:white;
+    border-radius: 100px;
+    border-color:orange;
+    background-color:orange;
+      
+}
+button:hover{
+    background-color:orangered;
+    color:white;
+    border-color: orangered;
+}
+ul a{
+    font-size: 30px;
+    margin-left: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+    font-family: cursive;
+}
+ul a:hover{
+     color: orange;
+     
+
+}
+.back{
+    width:60px;
+ }
+.room-image{
+    height: 500px;
+    width: 700px;
+    padding:50px;
+}

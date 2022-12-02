@@ -1,0 +1,102 @@
+*{
+    font-family: cursive;
+}
+.service-icon{
+    margin-top: 30px;
+    margin-right: 40px;
+    align-self: flex-start;
+    font-size: 48px;
+    color: #983e3e;
+    flex:content;
+}
+
+.service-content{
+    padding-right:  20px;
+    color: rgb(131, 40, 40);
+}
+.service-content h2{
+    opacity: 0.7;
+} */
+/* 
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  } */
+
+  .dimg-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dimg-container1 img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-left: 260px;
+    
+}
+.column:hover{
+    transform:scale(1.2) ;
+}
+.column {
+    float:left;
+    width: 37%;
+    padding: 10px;
+    height: 600px; /* Should be removed. Only for demonstration */
+    margin-left: 160px;
+    background-color: rgba(0, 0, 0, 0.474);
+    color: rgb(244, 244, 244);
+    border-radius: 30px;
+    font-size: 20px;
+    margin-bottom: 100px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .add{
+    display: inline;
+  }
+  .contact-item span{
+    display: inline;
+    margin-left: 20px;
+    text-align: center;
+}
+.fas{
+    margin-left: 67px;
+}
+body{
+    background-image: url("/image/main1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dimg-container1 span{
+    color: rgb(255, 255, 255);
+    margin: auto;
+    font-size: 30px;
+}
+.column h2{
+    color: orange;
+    text-align: center;
+}
+.contact-item span{
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    
+}
+.space{
+    margin-bottom: 300px;
+}

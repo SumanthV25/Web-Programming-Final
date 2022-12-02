@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main1.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="background">
+        <img src="../image/main1.png" height="900px" width="100%">
+    </div>
+
+    <!-- <img class="lo" src="/image/logo.png" alt="logo" height="200px" width="200px"  > -->
+   {{>logo}}
+
+    <button id="myButton" class="login" >Log in</button>
+
+    <button id="get" class="start" >GET STARTED</button>
+
+    <div class="rest"><p>HAVE A GREAT DAY RESTING HERE</p></div>
+
+    <div class="end">
+        <h1>ABOUT US</h1>
+        <p>We are here to help our customers by providing better started of living.</p>
+        <br>
+        <h2>HAVE A QUESTION?</h2>
+        <br>
+        <P>D-120 Mountain villas, jublie hills,Hyderabad,Telengana <br> +91 9876543210 <br>info@two5booking.com</P>
+
+    </div>
+    
+    <script>
+
+
+         fetch('./har.json')
+        .then(Response => Response.json())
+       
+        .then(sdata =>{
+            // back(sdata)
+            end(sdata)
+        })
+
+        function back(sdata){
+          img=`<img id="image" src="${sdata.back[0].ground}">`
+          let imgplace=document.querySelector(".background")
+          imgplace.innerHTML=img
+
+          let abc=document.getElementById("image");
+          abc.style.height='800px'
+          abc.style.width="100%"
+          
+        }
+
+        document.getElementById("myButton").onclick = function () {
+            location.href = "/login.html";
+    };
+
+    document.getElementById("get").onclick = function () {
+        location.href = "/selectcity.html";
+    };
+</script>
+</body>
+</html>

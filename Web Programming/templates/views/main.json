@@ -1,0 +1,61 @@
+{
+    "image":"logo.png",
+    "login":"LOGIN" ,
+    "quot":"HAVE A GREAT DAY RESTING HERE",
+    "get":"Get started",
+    
+
+    "services": [ 
+        {
+    "dept_name":"Food Service",
+     "logo":"fas fa-utensils"},
+    
+    {
+    "dept_name":"Refreshment",
+    "logo":"fas fa-utensils"},
+{
+    "dept_name":"Housekeeping",
+    "logo":"fas fa-utensils"},
+    {
+    "dept_name":"Room Security",
+    "logo":"fas fa-utensils"}
+    
+    
+   
+    ],
+
+    "heading":"About us",
+    "tag":"We are here to help our customers by providing better standard of living.",
+    "Question":"Have A Question ?",
+
+    "about": [ 
+        {
+    "dept_name":"instagram",
+     "logo":"fas fa-utensils"},
+    
+    {
+    "dept_name":"facebook",
+    "logo":"fas fa-utensils"},
+{
+    "dept_name":"twitter",
+    "logo":"fas fa-utensils"},
+    {
+        "Addres": "D-120 Mountain Villas,Jublie Hills,Hyderabad,Telengana",
+        "logo":"fas fa-map-marker-alt"
+
+    },
+    {
+        "Mobile":"999999999",
+        "logo":"fas fa-phone-alt"
+    },
+    {
+        "logo":"fas fa-envelope",
+        "mail":"info@two5booking.com"
+    }
+    
+    
+    
+    
+   
+   ]
+}

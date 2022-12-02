@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/Gurgaon.css">
+    
+</head>
+<body >
+   {{>logo}}
+    <section class="r"></section>
+</body>
+
+<script>
+    document.body.style.backgroundImage=  "url(/image/bgdelhi.png)";
+    document.body.style.backgroundSize ="2000px 1200px";
+    document.body.style.backgroundAttachment = "fixed";
+
+
+     async function loadPage() {
+            let request = new Request("delhi.json")
+            let response = await fetch(request)
+
+            let json_obj = await response.json()
+
+            loadheading(json_obj)
+            loadGurgaon(json_obj)
+     }
+         function loadheading(json_obj){
+
+         let s1=document.querySelector(".r")
+         let a = document.createElement("h1")
+         a.innerHTML=json_obj['main_head']
+
+         let b = document.createElement("h2")
+         b.innerHTML=json_obj['sub_head']
+
+         s1.appendChild(a)
+         s1.appendChild(b)
+        
+       
+
+        
+
+     } 
+     function loadGurgaon(json_obj){
+
+    
+   let s1=document.querySelector(".r")
+  let x= json_obj['items'] 
+
+
+  for (let i of x)
+  {
+
+  let box= document.createElement("div")
+  box.className="box"
+
+  let image=document.createElement("img")
+  image.src=i.image
+  image.className="room-image"
+
+  let hello=document.createElement("ul")
+  let b=document.createElement("h3")
+  let c=document.createElement("h4")
+  let d=document.createElement("li")
+  let e=document.createElement("p")
+  let f=document.createElement("button")
+  let g=document.createElement("a")
+   b.innerHTML=i.title
+   c.innerHTML=i.address
+   d.innerHTML=i.p1
+   e.innerHTML=i.p4
+   f.innerHTML=i.button
+   g.innerHTML=i.knowmore
+   g.href = "/maiden.html";
+
+   hello.appendChild(b)
+   hello.appendChild(c)
+   hello.appendChild(d) 
+   hello.appendChild(e)
+   hello.appendChild(f)
+   hello.appendChild(g)
+
+   box.appendChild(image)
+   box.appendChild(hello)
+  
+   s1.appendChild(box)
+
+  }
+  
+
+
+     }
+     loadPage()
+
+</script>
+</html>

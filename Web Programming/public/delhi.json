@@ -1,0 +1,56 @@
+{
+    
+
+    "main_head":"Delhi",
+    "sub_head":"Rooms",
+    "items": [
+        {
+            "image": "/image/h1.png",
+            "title": "Maidens Hotel",
+            "address": "Sham Nath Marg,Prema Kunj,North Delhi",
+            "p1": "Air Conditioning and swimming pool with room service",
+            "p4": "Maidens Hotel features 55 rooms and suites. Spacious rooms with high ceilings are unique when compared to the box-sized rooms of modern hotels. All rooms and suites are centrally air-conditioned, with amenities like mini bar and many more.",                                                        
+            "button":"book now",
+            "knowmore":"Know more"
+        },
+        {
+            "image": "/image/h2.png",
+            "title": "The Oberoi New Delhi",
+            "address": "Dr.Zakir Hussain Marg",
+            "p1": "Superior Room, Garden View with installed sanitizers",
+            "p4": "Choose from 220 rooms and suites with spacious walk in closets, Italian marble bathrooms, teak floors and oak wood desks. Breathe easy with state of the art air purification systems that assure air quality on par with global best standards."
+        ,"button":"book now",
+        "knowmore":"Know more"
+        },
+        {
+            "image": "/image/h3.png",
+            "title": "Holiday Inn Mayur Vihar",
+            "address": "13A,Mayur Vihar,District Centre,Delhi",
+            "p1": "Laundry and Doctor Service with ATM",
+            "p4": "Offering its guests free parking, the hotel also has a gym and outdoor pool. Mayur Vihar Metro Station is less than 1640 feet away. Holiday Inn New Delhi Mayur Vihar Noida is within a 20-minute drive from historical monuments of Delhi.",
+            "button":"book now",
+            "knowmore":"Know more"
+        },
+        {
+            "image": "./h4.png",
+            "title": "Pride Plaza Hotel Aerocity",
+            "address": "Asset 5-A,Hospitality District,Aerocity,Indra Gandji International Airport,New Delhi",
+            "p1": "Premier Room, Guest room, 1 King, Garden view and laundry service",
+            "p4": "Located in close proximity to Delhi and Gurgaon, this 5-star hotel near Delhi Airport provides the finest accommodation and state-of-the-art amenities and serves as a delightful haven for business and leisure travellers.",
+            "button":"book now",
+           "knowmore":"Know more"
+        },
+        {
+            "image": "/image/h5.png",
+            "title": "The Lalit",
+            "address": " Barakhamba Avenue Connaught Place, New Delhi",
+            "p1": "On-Site Restaurant,Room Service,Pool and spa ",
+            "p4": "The LaLiT Hotels in Delhi, one of the best luxury hotels in Delhi India, stands tall right in the middle of city’s premier business and commercial district – Connaught Place. Being the central luxury business "
+            ,"button":"book now",
+            "knowmore":"Know more"
+        }]
+
+
+
+    
+}

@@ -1,0 +1,56 @@
+{
+    
+
+    "main_head":"Gurgaon",
+    "sub_head":"Rooms",
+    "items": [
+        {
+            "image": "/image/gh1.png",
+            "title": "ITC Grand Bharat - A Luxury Collection Retreat",
+            "address": "PO Hasanpur,Tauru,Mewat Dist",
+            "p1": "Deluxe Suite Double with  installed sanitizers",
+            "p4": "ITC Grand Bharat, A Luxury Collection Retreat, Gurugram has 104 Suites & Villas. Each room here will provide you with air conditioning and a seating area. Featuring a bath or shower, private bathroom also comes with free toiletries."
+            ,"button":"book now",
+            "knowmore":"Know more"
+        },
+        {
+            "image": "/image/gh2.png",
+            "title": "Trident Gurgaon",
+            "address": "443,Gurgaon-Delhi Expy,Udyog Vihar Phase V,Sector 19",
+            "p1": "Superior Room, Garden View with installed sanitizers",
+            "p4": "The Superior Garden View Rooms at Trident, Gurgaon overlook the hotel's manicured lawns. These hotel rooms come with a choice of king or twin beds and feature all the modern amenities such as LCD televisions, DVD players, iPod docking stations and complimentary high speed Internet access, suited to a business traveller."   
+        ,"button":"book now",
+        "knowmore":"Know more"
+        },
+        {
+            "image": "/image/gh3.png",
+            "title": "Lemon Tree Hotel",
+            "address": "Sector 68,Sohna Road,Gurgaon",
+            "p1": "Laundry and Doctor Service with ATM",
+            "p4": "Room categories include Superior Room; Deluxe Room; Executive Room; Studio Room; and Executive Suite. The centrally air conditioned hotel offers a hip recreation bar – Slounge, a 24x7 multi- cuisine Coffee Shop - Citrus Café, a business center, a 279 sq. mtr. of conference area, a Life Fitness Gym and an outdoor Swimming Pool to keep you feeling fresh-as-a-lemon",
+            "button":"book now",
+            "knowmore":"Know more"
+        },
+        {
+            "image": "/image/gh4.png",
+            "title": "The Westin Sohna Resort & Spa",
+            "address": "Vatika Complex,P.O.Box Dhaula,Karanki Road,Sohna-Gurgaon",
+            "p1": "Premier Room, Guest room, 1 King, Garden view and laundry service",
+            "p4": "Rest and relax at The Westin Sohna Resorts & Spa, a luxurious resort spread over 37 acres of landscaped grounds. Featuring a 15,600 square-foot indoor spa and an outdoor pool, this 5-star resort is a 15-minute drive from Vatika Complex. Free parking is available, and free Wi-Fi is provided in the public areas"
+           , "button":"book now",
+           "knowmore":"Know more"
+        },
+        {
+            "image": "/image/gh5.png",
+            "title": "Hyatt Regency",
+            "address": " New Delhi NCR, NH8, Sector 83, Gurgaon, Haryana",
+            "p1": "On-Site Restaurant,Room Service,Pool and spa ",
+            "p4": "Rest and relax at The Westin Sohna Resorts & Spa, a luxurious resort spread over 37 acres of landscaped grounds. Featuring a 15,600 square-foot indoor spa and an outdoor pool, this 5-star resort is a 15-minute drive from Vatika Complex. Free parking is available, and free Wi-Fi is provided in the public areas"
+            ,"button":"book now",
+            "knowmore":"Know more"
+        }]
+
+
+
+    
+}   

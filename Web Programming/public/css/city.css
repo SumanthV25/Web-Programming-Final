@@ -1,0 +1,19 @@
+#x{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(250, 246, 246);
+    font-family: cursive ;
+    margin-top: -150px;
+}
+#Delhi{
+
+margin-left: 600px;
+/* margin-top: 50px; */
+text-decoration: none;
+}
+#Gurgaon{
+margin-left: 100px;
+}
+.back{
+width: 60px;
+}

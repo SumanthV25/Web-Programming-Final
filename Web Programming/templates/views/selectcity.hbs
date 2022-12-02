@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/city.css">
+    <title>Document</title>
+</head>
+<body>
+    {{!-- <a href="/"><img src="/image/back.png" class="back"></a> --}}
+    <a>{{>logo}}</a>
+    <div id="x"></div>
+    <a id="Gurgaon" href="/gurgaon.html"></a>
+    <a id="Delhi" href="/delhi.html"></a>
+    
+   
+  
+    <script>
+        document.body.style.backgroundImage=  "url(/image/City.png)";
+        document.body.style.backgroundSize ="2000px 1200px";
+        document.body.style.backgroundAttachment = "fixed";
+       
+         async function loadPage() {
+            let request = new Request("/selectcity.json")
+            let response = await fetch(request)
+
+            let json_obj = await response.json()
+
+            console.log(json_obj)
+
+            loadheading(json_obj)
+            loadGurgaon(json_obj)
+            loadDelhi(json_obj)
+        }
+        let x=document.getElementById("x")
+        function loadheading(trail_json_obj){
+            let h1 = document.createElement("h1")
+            h1.textContent = `${trail_json_obj['main_head']}`
+            x.appendChild(h1)
+        }
+        let Gurgaon=document.getElementById("Gurgaon")
+        function loadGurgaon(trail_json_obj){
+            let img = document.createElement("img")
+            img.src = trail_json_obj['image']
+            Gurgaon.appendChild(img)
+
+        }
+        let Delhi=document.getElementById("Delhi")
+        function loadDelhi(trail_json_obj){
+            let img = document.createElement("img")
+            img.src = trail_json_obj['img']
+            Delhi.appendChild(img)
+
+        }
+
+       
+        
+
+      
+    loadPage()
+    </script>
+  
+    
+</body>
+</html>
